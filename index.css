@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(80, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+}
+.display {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(172, 235, 178);
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: bold;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+button {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+.clear{
+    transition: border-buttom 2s;
+}
+.passed {
+    transition: border-buttom 2s;
+}
+.download {
+    transition: border-buttom 2s;
+}
+.clear:hover {
+    border-bottom: 2px solid red
+}
+.passed:hover {
+    border-bottom: 2px solid red
+}
+.download:hover {
+    border-bottom: 2px solid red
+}
+.time {
+    color: rgb(0, 0, 0);
+}
+.number {
+    display: flex;
+    justify-content: center;
+}
